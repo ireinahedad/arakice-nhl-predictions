@@ -1,0 +1,58 @@
+{
+  "date": "2026-11-02",
+  "publisher": "ArakIce",
+  "source": "arakiceML, independent of market odds",
+  "frozenAt": "2026-11-03T00:20:19.841Z",
+  "definitions": {
+    "homeWin": "P(home team wins), overtime and shootout included",
+    "homeMinus1_5": "P(home team wins by 2 or more goals)",
+    "awayMinus1_5": "P(away team wins by 2 or more goals)",
+    "goaliesConfirmed": "false = usual starter assumed",
+    "recordedAt": "when the model produced these numbers; the git push time proves they precede the game"
+  },
+  "games": [
+    {
+      "gameId": "2026020234",
+      "home": "CHI",
+      "away": "COL",
+      "startTimeUTC": "2026-11-03T01:00:00.000Z",
+      "probabilities": {
+        "homeWin": 0.26787,
+        "homeMinus1_5": 0.13245,
+        "awayMinus1_5": 0.52564
+      },
+      "goaliesConfirmed": false,
+      "modelVersion": "score-nhl-v1.0",
+      "recordedAt": "2026-11-03T00:20:19.948Z"
+    },
+    {
+      "gameId": "2026020235",
+      "home": "SJS",
+      "away": "CGY",
+      "startTimeUTC": "2026-11-03T02:00:00.000Z",
+      "probabilities": {
+        "homeWin": 0.56574,
+        "homeMinus1_5": 0.34955,
+        "awayMinus1_5": 0.23358
+      },
+      "goaliesConfirmed": false,
+      "modelVersion": "score-nhl-v1.0",
+      "recordedAt": "2026-11-03T00:20:19.942Z"
+    }
+  ],
+  "excluded": [
+    {
+      "gameId": "2026020232",
+      "home": "BOS",
+      "away": "VGK",
+      "reason": "started"
+    },
+    {
+      "gameId": "2026020233",
+      "home": "FLA",
+      "away": "DET",
+      "reason": "started"
+    }
+  ],
+  "disclaimer": "Model estimate. Not financial, legal or betting advice."
+}

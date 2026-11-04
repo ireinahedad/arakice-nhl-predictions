@@ -1,0 +1,73 @@
+{
+  "date": "2026-11-04",
+  "publisher": "ArakIce",
+  "source": "arakiceML, independent of market odds",
+  "frozenAt": "2026-11-04T21:09:35.838Z",
+  "definitions": {
+    "homeWin": "P(home team wins), overtime and shootout included",
+    "homeMinus1_5": "P(home team wins by 2 or more goals)",
+    "awayMinus1_5": "P(away team wins by 2 or more goals)",
+    "goaliesConfirmed": "false = usual starter assumed",
+    "recordedAt": "when the model produced these numbers; the git push time proves they precede the game"
+  },
+  "games": [
+    {
+      "gameId": "2026020247",
+      "home": "BUF",
+      "away": "OTT",
+      "startTimeUTC": "2026-11-05T00:30:00.000Z",
+      "probabilities": {
+        "homeWin": 0.53689,
+        "homeMinus1_5": 0.33681,
+        "awayMinus1_5": 0.26827
+      },
+      "goaliesConfirmed": false,
+      "modelVersion": "score-nhl-v1.0",
+      "recordedAt": "2026-11-04T21:09:37.037Z"
+    },
+    {
+      "gameId": "2026020248",
+      "home": "FLA",
+      "away": "CHI",
+      "startTimeUTC": "2026-11-05T00:30:00.000Z",
+      "probabilities": {
+        "homeWin": 0.75194,
+        "homeMinus1_5": 0.55699,
+        "awayMinus1_5": 0.11713
+      },
+      "goaliesConfirmed": false,
+      "modelVersion": "score-nhl-v1.0",
+      "recordedAt": "2026-11-04T21:09:37.484Z"
+    },
+    {
+      "gameId": "2026020249",
+      "home": "LAK",
+      "away": "SJS",
+      "startTimeUTC": "2026-11-05T03:00:00.000Z",
+      "probabilities": {
+        "homeWin": 0.61453,
+        "homeMinus1_5": 0.39933,
+        "awayMinus1_5": 0.20087
+      },
+      "goaliesConfirmed": false,
+      "modelVersion": "score-nhl-v1.0",
+      "recordedAt": "2026-11-04T21:09:37.133Z"
+    },
+    {
+      "gameId": "2026020250",
+      "home": "SEA",
+      "away": "CGY",
+      "startTimeUTC": "2026-11-05T03:00:00.000Z",
+      "probabilities": {
+        "homeWin": 0.55288,
+        "homeMinus1_5": 0.33907,
+        "awayMinus1_5": 0.24446
+      },
+      "goaliesConfirmed": false,
+      "modelVersion": "score-nhl-v1.0",
+      "recordedAt": "2026-11-04T21:09:37.295Z"
+    }
+  ],
+  "excluded": [],
+  "disclaimer": "Model estimate. Not financial, legal or betting advice."
+}

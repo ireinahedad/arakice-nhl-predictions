@@ -16,6 +16,7 @@ One file per NHL game day, `data/YYYY/YYYY-MM-DD.json`, written around 15:00 UTC
 | `homeMinus1_5` | P(home team wins by 2 or more goals) |
 | `awayMinus1_5` | P(away team wins by 2 or more goals) |
 | `goaliesConfirmed` | `false` = usual starter assumed |
+| `modelVersion` | model that produced the numbers (e.g. `score-nhl-v1.0`) |
 | `recordedAt` | when the model produced the numbers |
 | `excluded` | games left out of the day's file, with the reason (e.g. starting too soon) |
 
@@ -49,6 +50,19 @@ A git commit date is written by whoever makes the commit, so on its own it is a 
 The independent evidence is the time **GitHub received the push**: see this repository's
 [Activity](https://github.com/ireinahedad/arakice-nhl-predictions/activity) page, or `GET https://api.github.com/repos/ireinahedad/arakice-nhl-predictions/activity`.
 Rewriting history would also show there as a force push, and would break every existing clone.
+
+## Example: compare with prediction markets
+
+[`examples/compare-markets.mjs`](examples/compare-markets.mjs) prints today's published probabilities next to
+public Kalshi and Polymarket prices, and the gap between them. Node 20+, no install, no account, no key:
+
+```sh
+node examples/compare-markets.mjs                  # today, both venues
+node examples/compare-markets.mjs --source=kalshi --json
+```
+
+It only reads public endpoints and has no code to place orders. A gap is the difference between two
+estimates, not a recommendation: market prices include the venue's margin, which the script does not remove.
 
 ## Data access
 

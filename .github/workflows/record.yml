@@ -31,7 +31,7 @@ jobs:
           node-version: "24"
 
       - name: Test
-        run: node --test scripts/*.test.mjs
+        run: node --test scripts/*.test.mjs examples/*.test.mjs
 
       - name: Build
         run: node scripts/build-record.mjs

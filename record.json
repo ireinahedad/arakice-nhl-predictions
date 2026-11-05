@@ -1,30 +1,30 @@
 {
-  "generatedAt": "2026-11-04T19:49:23.414Z",
+  "generatedAt": "2026-11-05T19:59:37.918Z",
   "publisher": "ArakIce",
   "rules": "A game counts if the commit adding its file precedes the scheduled start and the file was never modified. Results: public NHL score feed.",
   "counts": {
-    "settled": 13,
+    "settled": 17,
     "pending": 0,
     "void": 0,
     "notEligible": 0
   },
   "summary": {
-    "games": 13,
+    "games": 17,
     "homeWin": {
-      "n": 13,
-      "logLoss": 0.63172,
-      "brier": 0.22141,
-      "accuracy": 0.6154
+      "n": 17,
+      "logLoss": 0.60863,
+      "brier": 0.21039,
+      "accuracy": 0.6471
     },
     "homeMinus1_5": {
-      "n": 13,
-      "logLoss": 0.58655,
-      "brier": 0.19903
+      "n": 17,
+      "logLoss": 0.58548,
+      "brier": 0.19841
     },
     "awayMinus1_5": {
-      "n": 13,
-      "logLoss": 0.41927,
-      "brier": 0.12372
+      "n": 17,
+      "logLoss": 0.376,
+      "brier": 0.10554
     },
     "calibrationHomeWin": [
       {
@@ -47,20 +47,20 @@
       },
       {
         "bin": "0.5-0.6",
-        "n": 4,
-        "meanPredicted": 0.5305,
+        "n": 6,
+        "meanPredicted": 0.5353,
         "observed": 0.5
       },
       {
         "bin": "0.6-0.7",
-        "n": 1,
-        "meanPredicted": 0.6111,
-        "observed": 0
+        "n": 2,
+        "meanPredicted": 0.6128,
+        "observed": 0.5
       },
       {
         "bin": "0.7-0.8",
-        "n": 1,
-        "meanPredicted": 0.7417,
+        "n": 2,
+        "meanPredicted": 0.7468,
         "observed": 1
       }
     ],
@@ -70,6 +70,94 @@
     }
   },
   "games": [
+    {
+      "date": "2026-11-04",
+      "gameId": "2026020249",
+      "home": "LAK",
+      "away": "SJS",
+      "startTimeUTC": "2026-11-05T03:00:00.000Z",
+      "committedAt": "2026-11-04T21:09:37Z",
+      "commit": "7e4c621675f0721349f37fcfa56166f3224a0543",
+      "probabilities": {
+        "homeWin": 0.61453,
+        "homeMinus1_5": 0.39933,
+        "awayMinus1_5": 0.20087
+      },
+      "homeScore": 7,
+      "awayScore": 2,
+      "lastPeriodType": "REG",
+      "outcomes": {
+        "homeWin": true,
+        "homeMinus1_5": true,
+        "awayMinus1_5": false
+      }
+    },
+    {
+      "date": "2026-11-04",
+      "gameId": "2026020250",
+      "home": "SEA",
+      "away": "CGY",
+      "startTimeUTC": "2026-11-05T03:00:00.000Z",
+      "committedAt": "2026-11-04T21:09:37Z",
+      "commit": "7e4c621675f0721349f37fcfa56166f3224a0543",
+      "probabilities": {
+        "homeWin": 0.55288,
+        "homeMinus1_5": 0.33907,
+        "awayMinus1_5": 0.24446
+      },
+      "homeScore": 2,
+      "awayScore": 1,
+      "lastPeriodType": "OT",
+      "outcomes": {
+        "homeWin": true,
+        "homeMinus1_5": false,
+        "awayMinus1_5": false
+      }
+    },
+    {
+      "date": "2026-11-04",
+      "gameId": "2026020247",
+      "home": "BUF",
+      "away": "OTT",
+      "startTimeUTC": "2026-11-05T00:30:00.000Z",
+      "committedAt": "2026-11-04T21:09:37Z",
+      "commit": "7e4c621675f0721349f37fcfa56166f3224a0543",
+      "probabilities": {
+        "homeWin": 0.53689,
+        "homeMinus1_5": 0.33681,
+        "awayMinus1_5": 0.26827
+      },
+      "homeScore": 1,
+      "awayScore": 2,
+      "lastPeriodType": "REG",
+      "outcomes": {
+        "homeWin": false,
+        "homeMinus1_5": false,
+        "awayMinus1_5": false
+      }
+    },
+    {
+      "date": "2026-11-04",
+      "gameId": "2026020248",
+      "home": "FLA",
+      "away": "CHI",
+      "startTimeUTC": "2026-11-05T00:30:00.000Z",
+      "committedAt": "2026-11-04T21:09:37Z",
+      "commit": "7e4c621675f0721349f37fcfa56166f3224a0543",
+      "probabilities": {
+        "homeWin": 0.75194,
+        "homeMinus1_5": 0.55699,
+        "awayMinus1_5": 0.11713
+      },
+      "homeScore": 5,
+      "awayScore": 3,
+      "lastPeriodType": "REG",
+      "outcomes": {
+        "homeWin": true,
+        "homeMinus1_5": true,
+        "awayMinus1_5": false
+      }
+    },
     {
       "date": "2026-11-03",
       "gameId": "2026020246",

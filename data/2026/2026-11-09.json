@@ -1,0 +1,59 @@
+{
+  "date": "2026-11-09",
+  "publisher": "ArakIce",
+  "source": "arakiceML, independent of market odds",
+  "frozenAt": "2026-11-09T23:08:49.060Z",
+  "definitions": {
+    "homeWin": "P(home team wins), overtime and shootout included",
+    "homeMinus1_5": "P(home team wins by 2 or more goals)",
+    "awayMinus1_5": "P(away team wins by 2 or more goals)",
+    "goaliesConfirmed": "false = usual starter assumed",
+    "recordedAt": "when the model produced these numbers; the git push time proves they precede the game"
+  },
+  "games": [
+    {
+      "gameId": "2026020283",
+      "home": "EDM",
+      "away": "NYR",
+      "startTimeUTC": "2026-11-10T01:00:00.000Z",
+      "probabilities": {
+        "homeWin": 0.60482,
+        "homeMinus1_5": 0.39608,
+        "awayMinus1_5": 0.21302
+      },
+      "goaliesConfirmed": false,
+      "modelVersion": "score-nhl-v1.0",
+      "recordedAt": "2026-11-09T23:08:50.759Z"
+    },
+    {
+      "gameId": "2026020284",
+      "home": "VAN",
+      "away": "PHI",
+      "startTimeUTC": "2026-11-10T02:30:00.000Z",
+      "probabilities": {
+        "homeWin": 0.528,
+        "homeMinus1_5": 0.31245,
+        "awayMinus1_5": 0.25955
+      },
+      "goaliesConfirmed": false,
+      "modelVersion": "score-nhl-v1.0",
+      "recordedAt": "2026-11-09T23:08:51.206Z"
+    },
+    {
+      "gameId": "2026020285",
+      "home": "SJS",
+      "away": "NYI",
+      "startTimeUTC": "2026-11-10T03:00:00.000Z",
+      "probabilities": {
+        "homeWin": 0.44481,
+        "homeMinus1_5": 0.25109,
+        "awayMinus1_5": 0.33707
+      },
+      "goaliesConfirmed": false,
+      "modelVersion": "score-nhl-v1.0",
+      "recordedAt": "2026-11-09T23:08:50.857Z"
+    }
+  ],
+  "excluded": [],
+  "disclaimer": "Model estimate. Not financial, legal or betting advice."
+}

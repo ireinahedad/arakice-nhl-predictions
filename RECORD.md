@@ -1,14 +1,14 @@
 # Track record
 
-Generated 2026-11-08T17:56:57.442Z by `scripts/build-record.mjs` from this repository's git history and the public NHL score feed. Do not edit by hand.
+Generated 2026-11-09T22:25:32.067Z by `scripts/build-record.mjs` from this repository's git history and the public NHL score feed. Do not edit by hand.
 
-**41 settled games** · 0 pending · 0 void · 0 not eligible (see `record.json`).
+**46 settled games** · 0 pending · 0 void · 0 not eligible (see `record.json`).
 
 | Market | Games | Log-loss | Brier | Accuracy |
 |---|---:|---:|---:|---:|
-| Home win | 41 | 0.5681 | 0.1912 | 78.0% |
-| Home −1.5 | 41 | 0.5355 | 0.1758 | — |
-| Away −1.5 | 41 | 0.4067 | 0.1241 | — |
+| Home win | 46 | 0.5763 | 0.1949 | 78.3% |
+| Home −1.5 | 46 | 0.5252 | 0.1712 | — |
+| Away −1.5 | 46 | 0.4318 | 0.1352 | — |
 
 Lower log-loss and Brier are better. For reference, a constant 50% forecast scores log-loss 0.6932 and Brier 0.2500.
 
@@ -20,8 +20,8 @@ When the model says 60–70%, the home team should win about 60–70% of the tim
 |---|---:|---:|---:|
 | 0.2-0.3 | 1 | 26.8% | 0.0% |
 | 0.3-0.4 | 4 | 35.5% | 25.0% |
-| 0.4-0.5 | 10 | 44.7% | 10.0% |
-| 0.5-0.6 | 11 | 53.7% | 63.6% |
+| 0.4-0.5 | 13 | 44.6% | 15.4% |
+| 0.5-0.6 | 13 | 54.1% | 69.2% |
 | 0.6-0.7 | 7 | 64.5% | 71.4% |
 | 0.7-0.8 | 6 | 73.7% | 83.3% |
 | 0.8-0.9 | 2 | 81.9% | 100.0% |
@@ -30,6 +30,11 @@ When the model says 60–70%, the home team should win about 60–70% of the tim
 
 | Date | Game | P(home win) | Final | Proof |
 |---|---|---:|---|---|
+| 2026-11-08 | PIT @ ANA | 59.5% | 2–5 | [1b2df9e](https://github.com/ireinahedad/arakice-nhl-predictions/commit/1b2df9e0fa6e7de5e4e1c888b5e5ff3a33bb49a1) |
+| 2026-11-08 | NJD @ TOR | 40.9% | 4–0 | [1b2df9e](https://github.com/ireinahedad/arakice-nhl-predictions/commit/1b2df9e0fa6e7de5e4e1c888b5e5ff3a33bb49a1) |
+| 2026-11-08 | PHI @ CGY | 52.4% | 3–4 (OT) | [1b2df9e](https://github.com/ireinahedad/arakice-nhl-predictions/commit/1b2df9e0fa6e7de5e4e1c888b5e5ff3a33bb49a1) |
+| 2026-11-08 | TBL @ WPG | 42.8% | 3–4 | [1b2df9e](https://github.com/ireinahedad/arakice-nhl-predictions/commit/1b2df9e0fa6e7de5e4e1c888b5e5ff3a33bb49a1) |
+| 2026-11-08 | VGK @ BUF | 49.2% | 4–1 | [1b2df9e](https://github.com/ireinahedad/arakice-nhl-predictions/commit/1b2df9e0fa6e7de5e4e1c888b5e5ff3a33bb49a1) |
 | 2026-11-07 | VAN @ EDM | 77.9% | 2–4 | [63772f0](https://github.com/ireinahedad/arakice-nhl-predictions/commit/63772f0b2f474c5824fc4a7725716aca41e2cfca) |
 | 2026-11-07 | DET @ COL | 69.2% | 0–4 | [63772f0](https://github.com/ireinahedad/arakice-nhl-predictions/commit/63772f0b2f474c5824fc4a7725716aca41e2cfca) |
 | 2026-11-07 | PIT @ LAK | 53.9% | 5–2 | [63772f0](https://github.com/ireinahedad/arakice-nhl-predictions/commit/63772f0b2f474c5824fc4a7725716aca41e2cfca) |
@@ -55,10 +60,5 @@ When the model says 60–70%, the home team should win about 60–70% of the tim
 | 2026-11-05 | DAL @ CBJ | 51.3% | 1–2 (SO) | [eff67fe](https://github.com/ireinahedad/arakice-nhl-predictions/commit/eff67fe7b463bc18ad5f6459ba56dc79c95b8e65) |
 | 2026-11-05 | VAN @ WPG | 70.6% | 2–6 | [eff67fe](https://github.com/ireinahedad/arakice-nhl-predictions/commit/eff67fe7b463bc18ad5f6459ba56dc79c95b8e65) |
 | 2026-11-04 | SJS @ LAK | 61.5% | 2–7 | [7e4c621](https://github.com/ireinahedad/arakice-nhl-predictions/commit/7e4c621675f0721349f37fcfa56166f3224a0543) |
-| 2026-11-04 | CGY @ SEA | 55.3% | 1–2 (OT) | [7e4c621](https://github.com/ireinahedad/arakice-nhl-predictions/commit/7e4c621675f0721349f37fcfa56166f3224a0543) |
-| 2026-11-04 | OTT @ BUF | 53.7% | 2–1 | [7e4c621](https://github.com/ireinahedad/arakice-nhl-predictions/commit/7e4c621675f0721349f37fcfa56166f3224a0543) |
-| 2026-11-04 | CHI @ FLA | 75.2% | 3–5 | [7e4c621](https://github.com/ireinahedad/arakice-nhl-predictions/commit/7e4c621675f0721349f37fcfa56166f3224a0543) |
-| 2026-11-03 | ANA @ VAN | 33.3% | 5–4 | [b7b757e](https://github.com/ireinahedad/arakice-nhl-predictions/commit/b7b757ef4e2680788228d16e234aa13be0918e13) |
-| 2026-11-03 | CAR @ NSH | 35.5% | 1–4 | [b7b757e](https://github.com/ireinahedad/arakice-nhl-predictions/commit/b7b757ef4e2680788228d16e234aa13be0918e13) |
 
 _Model estimates. Not financial, legal or betting advice._

@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-09",
+  "source": "https://api-web.nhle.com/v1/score/2026-11-09",
+  "games": [
+    {
+      "gameId": "2026020283",
+      "home": "EDM",
+      "away": "NYR",
+      "state": "final",
+      "homeScore": 3,
+      "awayScore": 1,
+      "lastPeriodType": "REG"
+    },
+    {
+      "gameId": "2026020284",
+      "home": "VAN",
+      "away": "PHI",
+      "state": "final",
+      "homeScore": 1,
+      "awayScore": 3,
+      "lastPeriodType": "REG"
+    },
+    {
+      "gameId": "2026020285",
+      "home": "SJS",
+      "away": "NYI",
+      "state": "final",
+      "homeScore": 3,
+      "awayScore": 2,
+      "lastPeriodType": "SO"
+    }
+  ]
+}

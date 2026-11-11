@@ -1,30 +1,30 @@
 {
-  "generatedAt": "2026-11-10T19:47:25.096Z",
+  "generatedAt": "2026-11-11T19:39:44.665Z",
   "publisher": "ArakIce",
   "rules": "A game counts if the commit adding its file precedes the scheduled start and the file was never modified. Results: public NHL score feed.",
   "counts": {
-    "settled": 49,
+    "settled": 56,
     "pending": 0,
     "void": 0,
     "notEligible": 0
   },
   "summary": {
-    "games": 49,
+    "games": 56,
     "homeWin": {
-      "n": 49,
-      "logLoss": 0.58311,
-      "brier": 0.19811,
-      "accuracy": 0.7551
+      "n": 56,
+      "logLoss": 0.59691,
+      "brier": 0.20467,
+      "accuracy": 0.7143
     },
     "homeMinus1_5": {
-      "n": 49,
-      "logLoss": 0.52546,
-      "brier": 0.17146
+      "n": 56,
+      "logLoss": 0.52408,
+      "brier": 0.17052
     },
     "awayMinus1_5": {
-      "n": 49,
-      "logLoss": 0.4462,
-      "brier": 0.14133
+      "n": 56,
+      "logLoss": 0.47657,
+      "brier": 0.15438
     },
     "calibrationHomeWin": [
       {
@@ -35,21 +35,21 @@
       },
       {
         "bin": "0.3-0.4",
-        "n": 4,
-        "meanPredicted": 0.355,
-        "observed": 0.25
+        "n": 5,
+        "meanPredicted": 0.3539,
+        "observed": 0.2
       },
       {
         "bin": "0.4-0.5",
-        "n": 14,
-        "meanPredicted": 0.4461,
-        "observed": 0.2143
+        "n": 16,
+        "meanPredicted": 0.4488,
+        "observed": 0.25
       },
       {
         "bin": "0.5-0.6",
-        "n": 14,
-        "meanPredicted": 0.5397,
-        "observed": 0.6429
+        "n": 18,
+        "meanPredicted": 0.5421,
+        "observed": 0.5556
       },
       {
         "bin": "0.6-0.7",
@@ -76,6 +76,160 @@
     }
   },
   "games": [
+    {
+      "date": "2026-11-10",
+      "gameId": "2026020292",
+      "home": "LAK",
+      "away": "NSH",
+      "startTimeUTC": "2026-11-11T03:00:00.000Z",
+      "committedAt": "2026-11-10T20:36:21Z",
+      "commit": "26a50ced8f6a484daed5a9efa80eb1b0625a7186",
+      "probabilities": {
+        "homeWin": 0.57556,
+        "homeMinus1_5": 0.35949,
+        "awayMinus1_5": 0.22699
+      },
+      "homeScore": 0,
+      "awayScore": 3,
+      "lastPeriodType": "REG",
+      "outcomes": {
+        "homeWin": false,
+        "homeMinus1_5": false,
+        "awayMinus1_5": true
+      }
+    },
+    {
+      "date": "2026-11-10",
+      "gameId": "2026020290",
+      "home": "STL",
+      "away": "DET",
+      "startTimeUTC": "2026-11-11T01:00:00.000Z",
+      "committedAt": "2026-11-10T20:36:21Z",
+      "commit": "26a50ced8f6a484daed5a9efa80eb1b0625a7186",
+      "probabilities": {
+        "homeWin": 0.56449,
+        "homeMinus1_5": 0.35814,
+        "awayMinus1_5": 0.24328
+      },
+      "homeScore": 3,
+      "awayScore": 2,
+      "lastPeriodType": "REG",
+      "outcomes": {
+        "homeWin": true,
+        "homeMinus1_5": false,
+        "awayMinus1_5": false
+      }
+    },
+    {
+      "date": "2026-11-10",
+      "gameId": "2026020289",
+      "home": "CBJ",
+      "away": "FLA",
+      "startTimeUTC": "2026-11-11T00:30:00.000Z",
+      "committedAt": "2026-11-10T20:36:21Z",
+      "commit": "26a50ced8f6a484daed5a9efa80eb1b0625a7186",
+      "probabilities": {
+        "homeWin": 0.48904,
+        "homeMinus1_5": 0.29227,
+        "awayMinus1_5": 0.30436
+      },
+      "homeScore": 1,
+      "awayScore": 4,
+      "lastPeriodType": "REG",
+      "outcomes": {
+        "homeWin": false,
+        "homeMinus1_5": false,
+        "awayMinus1_5": true
+      }
+    },
+    {
+      "date": "2026-11-10",
+      "gameId": "2026020286",
+      "home": "TOR",
+      "away": "COL",
+      "startTimeUTC": "2026-11-11T00:00:00.000Z",
+      "committedAt": "2026-11-10T20:36:21Z",
+      "commit": "26a50ced8f6a484daed5a9efa80eb1b0625a7186",
+      "probabilities": {
+        "homeWin": 0.34978,
+        "homeMinus1_5": 0.18872,
+        "awayMinus1_5": 0.43826
+      },
+      "homeScore": 3,
+      "awayScore": 6,
+      "lastPeriodType": "REG",
+      "outcomes": {
+        "homeWin": false,
+        "homeMinus1_5": false,
+        "awayMinus1_5": true
+      }
+    },
+    {
+      "date": "2026-11-10",
+      "gameId": "2026020287",
+      "home": "MTL",
+      "away": "MIN",
+      "startTimeUTC": "2026-11-11T00:00:00.000Z",
+      "committedAt": "2026-11-10T20:36:21Z",
+      "commit": "26a50ced8f6a484daed5a9efa80eb1b0625a7186",
+      "probabilities": {
+        "homeWin": 0.50481,
+        "homeMinus1_5": 0.30965,
+        "awayMinus1_5": 0.29523
+      },
+      "homeScore": 1,
+      "awayScore": 2,
+      "lastPeriodType": "OT",
+      "outcomes": {
+        "homeWin": false,
+        "homeMinus1_5": false,
+        "awayMinus1_5": false
+      }
+    },
+    {
+      "date": "2026-11-10",
+      "gameId": "2026020288",
+      "home": "OTT",
+      "away": "WSH",
+      "startTimeUTC": "2026-11-11T00:00:00.000Z",
+      "committedAt": "2026-11-10T20:36:21Z",
+      "commit": "26a50ced8f6a484daed5a9efa80eb1b0625a7186",
+      "probabilities": {
+        "homeWin": 0.55658,
+        "homeMinus1_5": 0.34617,
+        "awayMinus1_5": 0.24504
+      },
+      "homeScore": 2,
+      "awayScore": 3,
+      "lastPeriodType": "OT",
+      "outcomes": {
+        "homeWin": false,
+        "homeMinus1_5": false,
+        "awayMinus1_5": false
+      }
+    },
+    {
+      "date": "2026-11-10",
+      "gameId": "2026020291",
+      "home": "WPG",
+      "away": "NJD",
+      "startTimeUTC": "2026-11-11T00:00:00.000Z",
+      "committedAt": "2026-11-10T20:36:21Z",
+      "commit": "26a50ced8f6a484daed5a9efa80eb1b0625a7186",
+      "probabilities": {
+        "homeWin": 0.4458,
+        "homeMinus1_5": 0.25629,
+        "awayMinus1_5": 0.34112
+      },
+      "homeScore": 4,
+      "awayScore": 2,
+      "lastPeriodType": "REG",
+      "outcomes": {
+        "homeWin": true,
+        "homeMinus1_5": true,
+        "awayMinus1_5": false
+      }
+    },
     {
       "date": "2026-11-09",
       "gameId": "2026020285",

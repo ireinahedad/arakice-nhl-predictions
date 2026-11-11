@@ -1,0 +1,69 @@
+{
+  "date": "2026-11-10",
+  "source": "https://api-web.nhle.com/v1/score/2026-11-10",
+  "games": [
+    {
+      "gameId": "2026020286",
+      "home": "TOR",
+      "away": "COL",
+      "state": "final",
+      "homeScore": 3,
+      "awayScore": 6,
+      "lastPeriodType": "REG"
+    },
+    {
+      "gameId": "2026020287",
+      "home": "MTL",
+      "away": "MIN",
+      "state": "final",
+      "homeScore": 1,
+      "awayScore": 2,
+      "lastPeriodType": "OT"
+    },
+    {
+      "gameId": "2026020288",
+      "home": "OTT",
+      "away": "WSH",
+      "state": "final",
+      "homeScore": 2,
+      "awayScore": 3,
+      "lastPeriodType": "OT"
+    },
+    {
+      "gameId": "2026020291",
+      "home": "WPG",
+      "away": "NJD",
+      "state": "final",
+      "homeScore": 4,
+      "awayScore": 2,
+      "lastPeriodType": "REG"
+    },
+    {
+      "gameId": "2026020289",
+      "home": "CBJ",
+      "away": "FLA",
+      "state": "final",
+      "homeScore": 1,
+      "awayScore": 4,
+      "lastPeriodType": "REG"
+    },
+    {
+      "gameId": "2026020290",
+      "home": "STL",
+      "away": "DET",
+      "state": "final",
+      "homeScore": 3,
+      "awayScore": 2,
+      "lastPeriodType": "REG"
+    },
+    {
+      "gameId": "2026020292",
+      "home": "LAK",
+      "away": "NSH",
+      "state": "final",
+      "homeScore": 0,
+      "awayScore": 3,
+      "lastPeriodType": "REG"
+    }
+  ]
+}

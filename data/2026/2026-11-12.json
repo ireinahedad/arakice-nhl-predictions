@@ -1,0 +1,164 @@
+{
+  "date": "2026-11-12",
+  "publisher": "ArakIce",
+  "source": "arakiceML, independent of market odds",
+  "frozenAt": "2026-11-12T21:05:42.848Z",
+  "definitions": {
+    "homeWin": "P(home team wins), overtime and shootout included",
+    "homeMinus1_5": "P(home team wins by 2 or more goals)",
+    "awayMinus1_5": "P(away team wins by 2 or more goals)",
+    "goaliesConfirmed": "false = usual starter assumed",
+    "recordedAt": "when the model produced these numbers; the git push time proves they precede the game"
+  },
+  "games": [
+    {
+      "gameId": "2026020299",
+      "home": "BOS",
+      "away": "MTL",
+      "startTimeUTC": "2026-11-13T00:00:00.000Z",
+      "probabilities": {
+        "homeWin": 0.54738,
+        "homeMinus1_5": 0.3446,
+        "awayMinus1_5": 0.25844
+      },
+      "goaliesConfirmed": false,
+      "modelVersion": "score-nhl-v1.0",
+      "recordedAt": "2026-11-12T21:05:44.618Z"
+    },
+    {
+      "gameId": "2026020300",
+      "home": "TOR",
+      "away": "MIN",
+      "startTimeUTC": "2026-11-13T00:00:00.000Z",
+      "probabilities": {
+        "homeWin": 0.42547,
+        "homeMinus1_5": 0.24352,
+        "awayMinus1_5": 0.36315
+      },
+      "goaliesConfirmed": false,
+      "modelVersion": "score-nhl-v1.0",
+      "recordedAt": "2026-11-12T21:05:44.609Z"
+    },
+    {
+      "gameId": "2026020301",
+      "home": "OTT",
+      "away": "COL",
+      "startTimeUTC": "2026-11-13T00:00:00.000Z",
+      "probabilities": {
+        "homeWin": 0.44733,
+        "homeMinus1_5": 0.2616,
+        "awayMinus1_5": 0.34428
+      },
+      "goaliesConfirmed": false,
+      "modelVersion": "score-nhl-v1.0",
+      "recordedAt": "2026-11-12T21:05:44.805Z"
+    },
+    {
+      "gameId": "2026020303",
+      "home": "NJD",
+      "away": "WSH",
+      "startTimeUTC": "2026-11-13T00:00:00.000Z",
+      "probabilities": {
+        "homeWin": 0.56078,
+        "homeMinus1_5": 0.35716,
+        "awayMinus1_5": 0.24834
+      },
+      "goaliesConfirmed": false,
+      "modelVersion": "score-nhl-v1.0",
+      "recordedAt": "2026-11-12T21:05:44.794Z"
+    },
+    {
+      "gameId": "2026020304",
+      "home": "CBJ",
+      "away": "TBL",
+      "startTimeUTC": "2026-11-13T00:00:00.000Z",
+      "probabilities": {
+        "homeWin": 0.48143,
+        "homeMinus1_5": 0.28267,
+        "awayMinus1_5": 0.30741
+      },
+      "goaliesConfirmed": false,
+      "modelVersion": "score-nhl-v1.0",
+      "recordedAt": "2026-11-12T21:05:44.966Z"
+    },
+    {
+      "gameId": "2026020302",
+      "home": "FLA",
+      "away": "DET",
+      "startTimeUTC": "2026-11-13T00:30:00.000Z",
+      "probabilities": {
+        "homeWin": 0.62388,
+        "homeMinus1_5": 0.41532,
+        "awayMinus1_5": 0.19974
+      },
+      "goaliesConfirmed": false,
+      "modelVersion": "score-nhl-v1.0",
+      "recordedAt": "2026-11-12T21:05:44.991Z"
+    },
+    {
+      "gameId": "2026020305",
+      "home": "CHI",
+      "away": "BUF",
+      "startTimeUTC": "2026-11-13T01:00:00.000Z",
+      "probabilities": {
+        "homeWin": 0.40361,
+        "homeMinus1_5": 0.22941,
+        "awayMinus1_5": 0.38671
+      },
+      "goaliesConfirmed": false,
+      "modelVersion": "score-nhl-v1.0",
+      "recordedAt": "2026-11-12T21:05:45.137Z"
+    },
+    {
+      "gameId": "2026020306",
+      "home": "DAL",
+      "away": "WPG",
+      "startTimeUTC": "2026-11-13T01:00:00.000Z",
+      "probabilities": {
+        "homeWin": 0.62292,
+        "homeMinus1_5": 0.41178,
+        "awayMinus1_5": 0.19832
+      },
+      "goaliesConfirmed": false,
+      "modelVersion": "score-nhl-v1.0",
+      "recordedAt": "2026-11-12T21:05:45.166Z"
+    },
+    {
+      "gameId": "2026020307",
+      "home": "UTA",
+      "away": "STL",
+      "startTimeUTC": "2026-11-13T02:00:00.000Z",
+      "probabilities": {
+        "homeWin": 0.53244,
+        "homeMinus1_5": 0.32707,
+        "awayMinus1_5": 0.26628
+      },
+      "goaliesConfirmed": false,
+      "modelVersion": "score-nhl-v1.0",
+      "recordedAt": "2026-11-12T21:05:45.348Z"
+    },
+    {
+      "gameId": "2026020308",
+      "home": "LAK",
+      "away": "NYI",
+      "startTimeUTC": "2026-11-13T03:00:00.000Z",
+      "probabilities": {
+        "homeWin": 0.52502,
+        "homeMinus1_5": 0.3161,
+        "awayMinus1_5": 0.26792
+      },
+      "goaliesConfirmed": false,
+      "modelVersion": "score-nhl-v1.0",
+      "recordedAt": "2026-11-12T21:05:45.358Z"
+    }
+  ],
+  "excluded": [
+    {
+      "gameId": "2026020309",
+      "home": "SEA",
+      "away": "CAR",
+      "reason": "started"
+    }
+  ],
+  "disclaimer": "Model estimate. Not financial, legal or betting advice."
+}

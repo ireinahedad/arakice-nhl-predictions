@@ -1,0 +1,132 @@
+{
+  "date": "2026-11-14",
+  "source": "https://api-web.nhle.com/v1/score/2026-11-14",
+  "games": [
+    {
+      "gameId": "2026020321",
+      "home": "CAR",
+      "away": "SEA",
+      "state": "final",
+      "homeScore": 5,
+      "awayScore": 1,
+      "lastPeriodType": "REG"
+    },
+    {
+      "gameId": "2026020312",
+      "home": "CHI",
+      "away": "WPG",
+      "state": "final",
+      "homeScore": 4,
+      "awayScore": 5,
+      "lastPeriodType": "SO"
+    },
+    {
+      "gameId": "2026020313",
+      "home": "BOS",
+      "away": "MIN",
+      "state": "final",
+      "homeScore": 2,
+      "awayScore": 6,
+      "lastPeriodType": "REG"
+    },
+    {
+      "gameId": "2026020314",
+      "home": "TOR",
+      "away": "EDM",
+      "state": "final",
+      "homeScore": 0,
+      "awayScore": 1,
+      "lastPeriodType": "REG"
+    },
+    {
+      "gameId": "2026020315",
+      "home": "MTL",
+      "away": "COL",
+      "state": "final",
+      "homeScore": 1,
+      "awayScore": 4,
+      "lastPeriodType": "REG"
+    },
+    {
+      "gameId": "2026020316",
+      "home": "TBL",
+      "away": "DET",
+      "state": "final",
+      "homeScore": 0,
+      "awayScore": 2,
+      "lastPeriodType": "REG"
+    },
+    {
+      "gameId": "2026020317",
+      "home": "PIT",
+      "away": "OTT",
+      "state": "final",
+      "homeScore": 1,
+      "awayScore": 4,
+      "lastPeriodType": "REG"
+    },
+    {
+      "gameId": "2026020318",
+      "home": "WSH",
+      "away": "NJD",
+      "state": "final",
+      "homeScore": 4,
+      "awayScore": 7,
+      "lastPeriodType": "REG"
+    },
+    {
+      "gameId": "2026020319",
+      "home": "CBJ",
+      "away": "PHI",
+      "state": "final",
+      "homeScore": 3,
+      "awayScore": 4,
+      "lastPeriodType": "REG"
+    },
+    {
+      "gameId": "2026020320",
+      "home": "STL",
+      "away": "FLA",
+      "state": "final",
+      "homeScore": 1,
+      "awayScore": 4,
+      "lastPeriodType": "REG"
+    },
+    {
+      "gameId": "2026020322",
+      "home": "DAL",
+      "away": "BUF",
+      "state": "final",
+      "homeScore": 2,
+      "awayScore": 0,
+      "lastPeriodType": "REG"
+    },
+    {
+      "gameId": "2026020323",
+      "home": "UTA",
+      "away": "SJS",
+      "state": "final",
+      "homeScore": 5,
+      "awayScore": 6,
+      "lastPeriodType": "SO"
+    },
+    {
+      "gameId": "2026020324",
+      "home": "ANA",
+      "away": "NYI",
+      "state": "final",
+      "homeScore": 2,
+      "awayScore": 6,
+      "lastPeriodType": "REG"
+    },
+    {
+      "gameId": "2026020325",
+      "home": "LAK",
+      "away": "CGY",
+      "state": "final",
+      "homeScore": 2,
+      "awayScore": 3,
+      "lastPeriodType": "REG"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-16",
+  "publisher": "ArakIce",
+  "source": "arakiceML, independent of market odds",
+  "frozenAt": "2026-11-16T23:01:51.711Z",
+  "definitions": {
+    "homeWin": "P(home team wins), overtime and shootout included",
+    "homeMinus1_5": "P(home team wins by 2 or more goals)",
+    "awayMinus1_5": "P(away team wins by 2 or more goals)",
+    "goaliesConfirmed": "false = usual starter assumed",
+    "recordedAt": "when the model produced these numbers; the git push time proves they precede the game"
+  },
+  "games": [
+    {
+      "gameId": "2026020331",
+      "home": "NYR",
+      "away": "MTL",
+      "startTimeUTC": "2026-11-17T00:30:00.000Z",
+      "probabilities": {
+        "homeWin": 0.50012,
+        "homeMinus1_5": 0.30426,
+        "awayMinus1_5": 0.29776
+      },
+      "goaliesConfirmed": false,
+      "modelVersion": "score-nhl-v1.0",
+      "recordedAt": "2026-11-16T23:01:52.331Z"
+    },
+    {
+      "gameId": "2026020332",
+      "home": "UTA",
+      "away": "VAN",
+      "startTimeUTC": "2026-11-17T02:30:00.000Z",
+      "probabilities": {
+        "homeWin": 0.81538,
+        "homeMinus1_5": 0.63493,
+        "awayMinus1_5": 0.07919
+      },
+      "goaliesConfirmed": false,
+      "modelVersion": "score-nhl-v1.0",
+      "recordedAt": "2026-11-16T23:01:52.777Z"
+    }
+  ],
+  "excluded": [],
+  "disclaimer": "Model estimate. Not financial, legal or betting advice."
+}

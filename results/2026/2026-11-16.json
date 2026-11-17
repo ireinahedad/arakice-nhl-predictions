@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-16",
+  "source": "https://api-web.nhle.com/v1/score/2026-11-16",
+  "games": [
+    {
+      "gameId": "2026020331",
+      "home": "NYR",
+      "away": "MTL",
+      "state": "final",
+      "homeScore": 3,
+      "awayScore": 1,
+      "lastPeriodType": "REG"
+    },
+    {
+      "gameId": "2026020332",
+      "home": "UTA",
+      "away": "VAN",
+      "state": "final",
+      "homeScore": 2,
+      "awayScore": 3,
+      "lastPeriodType": "REG"
+    }
+  ]
+}

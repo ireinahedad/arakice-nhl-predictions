@@ -1,14 +1,14 @@
 # Track record
 
-Generated 2026-11-16T22:09:56.132Z by `scripts/build-record.mjs` from this repository's git history and the public NHL score feed. Do not edit by hand.
+Generated 2026-11-17T20:58:49.288Z by `scripts/build-record.mjs` from this repository's git history and the public NHL score feed. Do not edit by hand.
 
-**86 settled games** · 0 pending · 0 void · 0 not eligible (see `record.json`).
+**88 settled games** · 0 pending · 0 void · 0 not eligible (see `record.json`).
 
 | Market | Games | Log-loss | Brier | Accuracy |
 |---|---:|---:|---:|---:|
-| Home win | 86 | 0.6537 | 0.2310 | 62.8% |
-| Home −1.5 | 86 | 0.5175 | 0.1677 | — |
-| Away −1.5 | 86 | 0.5884 | 0.2018 | — |
+| Home win | 88 | 0.6659 | 0.2361 | 62.5% |
+| Home −1.5 | 88 | 0.5307 | 0.1739 | — |
+| Away −1.5 | 88 | 0.5800 | 0.1983 | — |
 
 Lower log-loss and Brier are better. For reference, a constant 50% forecast scores log-loss 0.6932 and Brier 0.2500.
 
@@ -21,15 +21,17 @@ When the model says 60–70%, the home team should win about 60–70% of the tim
 | 0.2-0.3 | 1 | 26.8% | 0.0% |
 | 0.3-0.4 | 7 | 34.6% | 14.3% |
 | 0.4-0.5 | 26 | 44.5% | 26.9% |
-| 0.5-0.6 | 27 | 53.9% | 48.1% |
+| 0.5-0.6 | 28 | 53.7% | 50.0% |
 | 0.6-0.7 | 16 | 65.2% | 50.0% |
 | 0.7-0.8 | 7 | 74.4% | 71.4% |
-| 0.8-0.9 | 2 | 81.9% | 100.0% |
+| 0.8-0.9 | 3 | 81.8% | 66.7% |
 
 ## Latest settled games
 
 | Date | Game | P(home win) | Final | Proof |
 |---|---|---:|---|---|
+| 2026-11-16 | VAN @ UTA | 81.5% | 3–2 | [339adf1](https://github.com/ireinahedad/arakice-nhl-predictions/commit/339adf1e52f24bfd4d0a5a916ebaca9e4a1b63a3) |
+| 2026-11-16 | MTL @ NYR | 50.0% | 1–3 | [339adf1](https://github.com/ireinahedad/arakice-nhl-predictions/commit/339adf1e52f24bfd4d0a5a916ebaca9e4a1b63a3) |
 | 2026-11-15 | VAN @ VGK | 78.6% | 6–3 | [dc2d6dd](https://github.com/ireinahedad/arakice-nhl-predictions/commit/dc2d6ddd73e6f4ebe01a3a78512d94307f3ba08c) |
 | 2026-11-15 | NSH @ SJS | 42.2% | 2–4 | [dc2d6dd](https://github.com/ireinahedad/arakice-nhl-predictions/commit/dc2d6ddd73e6f4ebe01a3a78512d94307f3ba08c) |
 | 2026-11-15 | FLA @ DAL | 53.3% | 1–2 (OT) | [dc2d6dd](https://github.com/ireinahedad/arakice-nhl-predictions/commit/dc2d6ddd73e6f4ebe01a3a78512d94307f3ba08c) |
@@ -58,7 +60,5 @@ When the model says 60–70%, the home team should win about 60–70% of the tim
 | 2026-11-12 | MTL @ BOS | 54.7% | 5–2 | [e6c0ecf](https://github.com/ireinahedad/arakice-nhl-predictions/commit/e6c0ecfb3c1b9ac7356f7ad3e1077b32f368c968) |
 | 2026-11-12 | MIN @ TOR | 42.5% | 5–2 | [e6c0ecf](https://github.com/ireinahedad/arakice-nhl-predictions/commit/e6c0ecfb3c1b9ac7356f7ad3e1077b32f368c968) |
 | 2026-11-12 | COL @ OTT | 44.7% | 3–4 (OT) | [e6c0ecf](https://github.com/ireinahedad/arakice-nhl-predictions/commit/e6c0ecfb3c1b9ac7356f7ad3e1077b32f368c968) |
-| 2026-11-12 | WSH @ NJD | 56.1% | 2–5 | [e6c0ecf](https://github.com/ireinahedad/arakice-nhl-predictions/commit/e6c0ecfb3c1b9ac7356f7ad3e1077b32f368c968) |
-| 2026-11-12 | TBL @ CBJ | 48.1% | 3–1 | [e6c0ecf](https://github.com/ireinahedad/arakice-nhl-predictions/commit/e6c0ecfb3c1b9ac7356f7ad3e1077b32f368c968) |
 
 _Model estimates. Not financial, legal or betting advice._

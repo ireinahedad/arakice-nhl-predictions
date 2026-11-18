@@ -1,0 +1,59 @@
+{
+  "date": "2026-11-18",
+  "publisher": "ArakIce",
+  "source": "arakiceML, independent of market odds",
+  "frozenAt": "2026-11-18T21:35:37.431Z",
+  "definitions": {
+    "homeWin": "P(home team wins), overtime and shootout included",
+    "homeMinus1_5": "P(home team wins by 2 or more goals)",
+    "awayMinus1_5": "P(away team wins by 2 or more goals)",
+    "goaliesConfirmed": "false = usual starter assumed",
+    "recordedAt": "when the model produced these numbers; the git push time proves they precede the game"
+  },
+  "games": [
+    {
+      "gameId": "2026020344",
+      "home": "DET",
+      "away": "BOS",
+      "startTimeUTC": "2026-11-19T00:30:00.000Z",
+      "probabilities": {
+        "homeWin": 0.53293,
+        "homeMinus1_5": 0.32966,
+        "awayMinus1_5": 0.26796
+      },
+      "goaliesConfirmed": false,
+      "modelVersion": "score-nhl-v1.0",
+      "recordedAt": "2026-11-18T21:35:39.059Z"
+    },
+    {
+      "gameId": "2026020345",
+      "home": "NJD",
+      "away": "MTL",
+      "startTimeUTC": "2026-11-19T00:30:00.000Z",
+      "probabilities": {
+        "homeWin": 0.56536,
+        "homeMinus1_5": 0.36806,
+        "awayMinus1_5": 0.25092
+      },
+      "goaliesConfirmed": false,
+      "modelVersion": "score-nhl-v1.0",
+      "recordedAt": "2026-11-18T21:35:39.604Z"
+    },
+    {
+      "gameId": "2026020346",
+      "home": "UTA",
+      "away": "COL",
+      "startTimeUTC": "2026-11-19T03:00:00.000Z",
+      "probabilities": {
+        "homeWin": 0.4614,
+        "homeMinus1_5": 0.27664,
+        "awayMinus1_5": 0.33581
+      },
+      "goaliesConfirmed": false,
+      "modelVersion": "score-nhl-v1.0",
+      "recordedAt": "2026-11-18T21:35:39.149Z"
+    }
+  ],
+  "excluded": [],
+  "disclaimer": "Model estimate. Not financial, legal or betting advice."
+}

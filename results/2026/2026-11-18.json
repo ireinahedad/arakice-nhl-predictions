@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-18",
+  "source": "https://api-web.nhle.com/v1/score/2026-11-18",
+  "games": [
+    {
+      "gameId": "2026020344",
+      "home": "DET",
+      "away": "BOS",
+      "state": "final",
+      "homeScore": 1,
+      "awayScore": 4,
+      "lastPeriodType": "REG"
+    },
+    {
+      "gameId": "2026020345",
+      "home": "NJD",
+      "away": "MTL",
+      "state": "final",
+      "homeScore": 2,
+      "awayScore": 3,
+      "lastPeriodType": "REG"
+    },
+    {
+      "gameId": "2026020346",
+      "home": "UTA",
+      "away": "COL",
+      "state": "final",
+      "homeScore": 4,
+      "awayScore": 1,
+      "lastPeriodType": "REG"
+    }
+  ]
+}

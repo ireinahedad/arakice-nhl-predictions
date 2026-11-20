@@ -1,0 +1,114 @@
+{
+  "date": "2026-11-19",
+  "source": "https://api-web.nhle.com/v1/score/2026-11-19",
+  "games": [
+    {
+      "gameId": "2026020347",
+      "home": "TOR",
+      "away": "LAK",
+      "state": "final",
+      "homeScore": 3,
+      "awayScore": 4,
+      "lastPeriodType": "SO"
+    },
+    {
+      "gameId": "2026020348",
+      "home": "OTT",
+      "away": "PHI",
+      "state": "final",
+      "homeScore": 5,
+      "awayScore": 6,
+      "lastPeriodType": "OT"
+    },
+    {
+      "gameId": "2026020350",
+      "home": "PIT",
+      "away": "STL",
+      "state": "final",
+      "homeScore": 2,
+      "awayScore": 5,
+      "lastPeriodType": "REG"
+    },
+    {
+      "gameId": "2026020351",
+      "home": "WSH",
+      "away": "BUF",
+      "state": "final",
+      "homeScore": 3,
+      "awayScore": 6,
+      "lastPeriodType": "REG"
+    },
+    {
+      "gameId": "2026020352",
+      "home": "CAR",
+      "away": "MTL",
+      "state": "final",
+      "homeScore": 1,
+      "awayScore": 2,
+      "lastPeriodType": "OT"
+    },
+    {
+      "gameId": "2026020354",
+      "home": "WPG",
+      "away": "NYI",
+      "state": "final",
+      "homeScore": 4,
+      "awayScore": 3,
+      "lastPeriodType": "OT"
+    },
+    {
+      "gameId": "2026020349",
+      "home": "TBL",
+      "away": "EDM",
+      "state": "final",
+      "homeScore": 3,
+      "awayScore": 1,
+      "lastPeriodType": "REG"
+    },
+    {
+      "gameId": "2026020353",
+      "home": "CHI",
+      "away": "CBJ",
+      "state": "final",
+      "homeScore": 2,
+      "awayScore": 4,
+      "lastPeriodType": "REG"
+    },
+    {
+      "gameId": "2026020355",
+      "home": "CGY",
+      "away": "MIN",
+      "state": "final",
+      "homeScore": 1,
+      "awayScore": 4,
+      "lastPeriodType": "REG"
+    },
+    {
+      "gameId": "2026020356",
+      "home": "COL",
+      "away": "ANA",
+      "state": "final",
+      "homeScore": 4,
+      "awayScore": 0,
+      "lastPeriodType": "REG"
+    },
+    {
+      "gameId": "2026020357",
+      "home": "SEA",
+      "away": "VAN",
+      "state": "final",
+      "homeScore": 5,
+      "awayScore": 1,
+      "lastPeriodType": "REG"
+    },
+    {
+      "gameId": "2026020358",
+      "home": "VGK",
+      "away": "DAL",
+      "state": "final",
+      "homeScore": 3,
+      "awayScore": 4,
+      "lastPeriodType": "SO"
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T20:26:14.227Z",
+  "generatedAt": "2026-11-21T19:20:48.736Z",
   "publisher": "ArakIce",
   "rules": "A game counts if the commit adding its file precedes the scheduled start and the file was never modified. Results: public NHL score feed.",
   "counts": {

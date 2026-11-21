@@ -1,6 +1,6 @@
 # Track record
 
-Generated 2026-11-20T20:26:14.227Z by `scripts/build-record.mjs` from this repository's git history and the public NHL score feed. Do not edit by hand.
+Generated 2026-11-21T19:20:48.736Z by `scripts/build-record.mjs` from this repository's git history and the public NHL score feed. Do not edit by hand.
 
 **114 settled games** · 0 pending · 0 void · 0 not eligible (see `record.json`).
 

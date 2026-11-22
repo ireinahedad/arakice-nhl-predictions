@@ -1,0 +1,80 @@
+{
+  "date": "2026-11-22",
+  "publisher": "ArakIce",
+  "source": "arakiceML, independent of market odds",
+  "frozenAt": "2026-11-22T20:28:32.449Z",
+  "definitions": {
+    "homeWin": "P(home team wins), overtime and shootout included",
+    "homeMinus1_5": "P(home team wins by 2 or more goals)",
+    "awayMinus1_5": "P(away team wins by 2 or more goals)",
+    "goaliesConfirmed": "false = usual starter assumed",
+    "recordedAt": "when the model produced these numbers; the git push time proves they precede the game"
+  },
+  "games": [
+    {
+      "gameId": "2026020374",
+      "home": "TBL",
+      "away": "BUF",
+      "startTimeUTC": "2026-11-22T22:00:00.000Z",
+      "probabilities": {
+        "homeWin": 0.70001,
+        "homeMinus1_5": 0.49478,
+        "awayMinus1_5": 0.1479
+      },
+      "goaliesConfirmed": false,
+      "modelVersion": "score-nhl-v1.0",
+      "recordedAt": "2026-11-22T20:28:34.666Z"
+    },
+    {
+      "gameId": "2026020375",
+      "home": "STL",
+      "away": "EDM",
+      "startTimeUTC": "2026-11-23T00:00:00.000Z",
+      "probabilities": {
+        "homeWin": 0.47402,
+        "homeMinus1_5": 0.27933,
+        "awayMinus1_5": 0.31666
+      },
+      "goaliesConfirmed": false,
+      "modelVersion": "score-nhl-v1.0",
+      "recordedAt": "2026-11-22T20:28:35.161Z"
+    },
+    {
+      "gameId": "2026020376",
+      "home": "DAL",
+      "away": "PIT",
+      "startTimeUTC": "2026-11-23T00:00:00.000Z",
+      "probabilities": {
+        "homeWin": 0.68023,
+        "homeMinus1_5": 0.47014,
+        "awayMinus1_5": 0.15856
+      },
+      "goaliesConfirmed": false,
+      "modelVersion": "score-nhl-v1.0",
+      "recordedAt": "2026-11-22T20:28:34.871Z"
+    },
+    {
+      "gameId": "2026020377",
+      "home": "VAN",
+      "away": "CHI",
+      "startTimeUTC": "2026-11-23T01:00:00.000Z",
+      "probabilities": {
+        "homeWin": 0.49227,
+        "homeMinus1_5": 0.28771,
+        "awayMinus1_5": 0.29418
+      },
+      "goaliesConfirmed": false,
+      "modelVersion": "score-nhl-v1.0",
+      "recordedAt": "2026-11-22T20:28:34.948Z"
+    }
+  ],
+  "excluded": [
+    {
+      "gameId": "2026020373",
+      "home": "NYR",
+      "away": "CAR",
+      "reason": "started"
+    }
+  ],
+  "disclaimer": "Model estimate. Not financial, legal or betting advice."
+}

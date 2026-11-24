@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-24",
+  "publisher": "ArakIce",
+  "source": "arakiceML, independent of market odds",
+  "frozenAt": "2026-11-24T23:15:39.434Z",
+  "definitions": {
+    "homeWin": "P(home team wins), overtime and shootout included",
+    "homeMinus1_5": "P(home team wins by 2 or more goals)",
+    "awayMinus1_5": "P(away team wins by 2 or more goals)",
+    "goaliesConfirmed": "false = usual starter assumed",
+    "recordedAt": "when the model produced these numbers; the git push time proves they precede the game"
+  },
+  "games": [
+    {
+      "gameId": "2026020385",
+      "home": "EDM",
+      "away": "VGK",
+      "startTimeUTC": "2026-11-25T01:00:00.000Z",
+      "probabilities": {
+        "homeWin": 0.51895,
+        "homeMinus1_5": 0.31564,
+        "awayMinus1_5": 0.27748
+      },
+      "goaliesConfirmed": false,
+      "modelVersion": "score-nhl-v1.0",
+      "recordedAt": "2026-11-24T23:15:40.549Z"
+    }
+  ],
+  "excluded": [],
+  "disclaimer": "Model estimate. Not financial, legal or betting advice."
+}

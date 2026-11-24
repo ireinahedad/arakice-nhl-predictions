@@ -1,0 +1,76 @@
+{
+  "date": "2026-11-23",
+  "publisher": "ArakIce",
+  "source": "arakiceML, independent of market odds",
+  "frozenAt": "2026-11-24T01:12:01.649Z",
+  "definitions": {
+    "homeWin": "P(home team wins), overtime and shootout included",
+    "homeMinus1_5": "P(home team wins by 2 or more goals)",
+    "awayMinus1_5": "P(away team wins by 2 or more goals)",
+    "goaliesConfirmed": "false = usual starter assumed",
+    "recordedAt": "when the model produced these numbers; the git push time proves they precede the game"
+  },
+  "games": [
+    {
+      "gameId": "2026020383",
+      "home": "SEA",
+      "away": "ANA",
+      "startTimeUTC": "2026-11-24T02:40:00.000Z",
+      "probabilities": {
+        "homeWin": 0.43058,
+        "homeMinus1_5": 0.24109,
+        "awayMinus1_5": 0.35113
+      },
+      "goaliesConfirmed": false,
+      "modelVersion": "score-nhl-v1.0",
+      "recordedAt": "2026-11-24T01:12:03.690Z"
+    },
+    {
+      "gameId": "2026020384",
+      "home": "SJS",
+      "away": "MIN",
+      "startTimeUTC": "2026-11-24T03:00:00.000Z",
+      "probabilities": {
+        "homeWin": 0.34522,
+        "homeMinus1_5": 0.18531,
+        "awayMinus1_5": 0.44269
+      },
+      "goaliesConfirmed": false,
+      "modelVersion": "score-nhl-v1.0",
+      "recordedAt": "2026-11-24T01:12:02.988Z"
+    }
+  ],
+  "excluded": [
+    {
+      "gameId": "2026020378",
+      "home": "NJD",
+      "away": "CBJ",
+      "reason": "started"
+    },
+    {
+      "gameId": "2026020379",
+      "home": "MTL",
+      "away": "LAK",
+      "reason": "started"
+    },
+    {
+      "gameId": "2026020380",
+      "home": "OTT",
+      "away": "CGY",
+      "reason": "started"
+    },
+    {
+      "gameId": "2026020381",
+      "home": "NYI",
+      "away": "TOR",
+      "reason": "started"
+    },
+    {
+      "gameId": "2026020382",
+      "home": "WPG",
+      "away": "UTA",
+      "reason": "started"
+    }
+  ],
+  "disclaimer": "Model estimate. Not financial, legal or betting advice."
+}

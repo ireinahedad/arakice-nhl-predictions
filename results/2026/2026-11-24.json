@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-24",
+  "source": "https://api-web.nhle.com/v1/score/2026-11-24",
+  "games": [
+    {
+      "gameId": "2026020385",
+      "home": "EDM",
+      "away": "VGK",
+      "state": "final",
+      "homeScore": 3,
+      "awayScore": 5,
+      "lastPeriodType": "REG"
+    }
+  ]
+}

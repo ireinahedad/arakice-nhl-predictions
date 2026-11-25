@@ -1,30 +1,30 @@
 {
-  "generatedAt": "2026-11-24T22:29:59.123Z",
+  "generatedAt": "2026-11-25T21:45:03.400Z",
   "publisher": "ArakIce",
   "rules": "A game counts if the commit adding its file precedes the scheduled start and the file was never modified. Results: public NHL score feed.",
   "counts": {
-    "settled": 133,
+    "settled": 134,
     "pending": 0,
     "void": 0,
     "notEligible": 0
   },
   "summary": {
-    "games": 133,
+    "games": 134,
     "homeWin": {
-      "n": 133,
-      "logLoss": 0.68308,
-      "brier": 0.24441,
-      "accuracy": 0.5789
+      "n": 134,
+      "logLoss": 0.68344,
+      "brier": 0.24459,
+      "accuracy": 0.5746
     },
     "homeMinus1_5": {
-      "n": 133,
-      "logLoss": 0.54492,
-      "brier": 0.18082
+      "n": 134,
+      "logLoss": 0.54368,
+      "brier": 0.18022
     },
     "awayMinus1_5": {
-      "n": 133,
-      "logLoss": 0.56754,
-      "brier": 0.19197
+      "n": 134,
+      "logLoss": 0.57287,
+      "brier": 0.19443
     },
     "calibrationHomeWin": [
       {
@@ -47,9 +47,9 @@
       },
       {
         "bin": "0.5-0.6",
-        "n": 46,
-        "meanPredicted": 0.5415,
-        "observed": 0.4565
+        "n": 47,
+        "meanPredicted": 0.541,
+        "observed": 0.4468
       },
       {
         "bin": "0.6-0.7",
@@ -76,6 +76,28 @@
     }
   },
   "games": [
+    {
+      "date": "2026-11-24",
+      "gameId": "2026020385",
+      "home": "EDM",
+      "away": "VGK",
+      "startTimeUTC": "2026-11-25T01:00:00.000Z",
+      "committedAt": "2026-11-24T23:15:40Z",
+      "commit": "280cac6a451f2abdcd4604b0e2e21e1a73548333",
+      "probabilities": {
+        "homeWin": 0.51895,
+        "homeMinus1_5": 0.31564,
+        "awayMinus1_5": 0.27748
+      },
+      "homeScore": 3,
+      "awayScore": 5,
+      "lastPeriodType": "REG",
+      "outcomes": {
+        "homeWin": false,
+        "homeMinus1_5": false,
+        "awayMinus1_5": true
+      }
+    },
     {
       "date": "2026-11-23",
       "gameId": "2026020384",
